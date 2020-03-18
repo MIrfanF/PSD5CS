@@ -10,7 +10,7 @@ generic(
 		sps	: integer := 2; --Space after sign
 		spa	: integer := 5; --Space after Alphabet
 		sp		: integer := 20; --space
-		maxc	: integer := 10 --Maximum Char
+		maxc	: integer := 9 --Maximum Char
 );
 port(	clk 	: in std_logic;
 		sr	 	: in std_logic := '1';
